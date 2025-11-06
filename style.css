@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: "higurefont";
-  src: url("HigureGothic-Black.ttf") format("truetype");
+  font-family: "hibiyafont";
+  src: url("KH-Dot-Hibiya-24.ttf") format("truetype");
 }
 
 
@@ -133,7 +133,7 @@ up {
 
 .dekaa {
   font-size: 2em; /* 元の1.2emの2倍 */
-  font-family: "higurefont", "honbunfont", sans-serif;
+  font-family: "hibiyafont", "honbunfont", sans-serif;
   color: #000055;   /* 好きな色で強調 */
   font-weight: bold; /* 太字にすることも可能 */
 }
@@ -289,6 +289,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
