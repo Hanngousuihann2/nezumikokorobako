@@ -139,7 +139,7 @@ up {
 
 .dekaa {
   font-size: 2em; /* 元の1.2emの2倍 */
-  font-family: "husigifont", "honbunfont", sans-serif;
+  font-family: "mamefont", "honbunfont", sans-serif;
   color: #000055;   /* 好きな色で強調 */
   font-weight: bold; /* 太字にすることも可能 */
 }
@@ -295,6 +295,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
