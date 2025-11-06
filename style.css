@@ -3,18 +3,12 @@
   font-family: "honbunfont";
   src: url("KH-Dot-Akihabara-16.ttf") format("truetype");
 }
+
 @font-face {
-  font-family: "husigifont";
-  src: url("NuKinakoMochiCt-RegOl-Rnd.otf") format("truetype");
+  font-family: "higurefont";
+  src: url("HigureGothic-Black.ttf") format("truetype");
 }
-@font-face {
-  font-family: "riarufont";
-  src: url("KH-Dot-Hibiya-24.ttf") format("truetype");
-}
-@font-face {
-  font-family: "mamefont";
-  src: url("Mamelon-3-Hi-Regular.otf") format("truetype");
-}
+
 
     body {
       background-color: #ffffff;
@@ -139,7 +133,7 @@ up {
 
 .dekaa {
   font-size: 2em; /* 元の1.2emの2倍 */
-  font-family: "mamefont", "honbunfont", sans-serif;
+  font-family: "higurefont", "honbunfont", sans-serif;
   color: #000055;   /* 好きな色で強調 */
   font-weight: bold; /* 太字にすることも可能 */
 }
@@ -295,6 +289,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
