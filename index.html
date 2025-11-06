@@ -12,6 +12,13 @@
 
   <div class="container">
   <div id="header"></div> <!-- ← ここに共通部分が読み込まれる -->
+  <script>
+    fetch("header.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("header").innerHTML = data;
+      });
+  </script>
 
 
     <img src="toppic1.png" alt="とっぷ" class="miyazaki">
@@ -84,5 +91,6 @@ button.addEventListener("click", () => {
 </body>
 
 </html>
+
 
 
