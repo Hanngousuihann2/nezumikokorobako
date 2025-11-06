@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ねずみのことばばこ</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="sidebar">
+    <img src="titlepic.png" alt="サイトタイトル" class="titlepic">
+   <img src="husigi.png" alt="サイトタイトル" class="titlepic">
+
+    <div class="nav-buttons">
+<p>ゆっくりして</p>
+      <a href="kokoroindex.html" class="nav-btn2">メインページ</a>
+      <a href="profile.html" class="nav-btn">プロフィール</a>
+      <a href="links.html" class="nav-btn">リンク・規約等</a>
+      <a href="links.html" class="nav-btn">歌詞・カラオケ</a>
+      <a href="diary.html" class="nav-btn">普通日記</a>
+      <a href="uldiary.html" class="nav-btn3">鬱の日記</a>
+      <a href="uldiary.html" class="nav-btn">ギャラリー</a>
+      <a href="uldiary.html" class="nav-btn">ひみつピアノ</a>
+      <a href="uldiary.html" class="nav-btn">その他</a>
+    </div>
+  </div>
+
+<div class="content">
+  <a href="kokoroindex.html" class="sub-logo-link">
+    <img src="ne.png" alt="ね！ロゴ" class="sub-logo">
+  </a>
+<br><br><br>
+<img src="nezucalture.png" alt="サイトロゴ" class="logo">
+  <div class="kuuhaku">
+<up>「ね！」をクリックするとメインページへ戻ります</up>
+
+<div class="news-bar">
+  <div class="news-background"></div>
+  <div class="news-text">
+   新曲「ラストベランダ」を聴いてくれたらうれしいです
+  </div>
+</div>
+    <img src="garaba2.png" alt="ぽかぽか" class="garaba">
+
+  <hr class="top-line">
+    <img src="toppic1.png" alt="とっぷ" class="miyazaki">
+<div class=
+"illustration-link">
+  <a href="page1.html" class="illust">
+    <img src="naniwa1.png" data-hover="naniwa2.png" alt="リンク1">
+  </a>
+</div>
+  <script>
+    const img = document.querySelector('.illustration-link .illust img');
+    const original = img.src;
+    const hoverImg = img.dataset.hover;
+
+    img.addEventListener('mouseenter', () => img.src = hoverImg);
+    img.addEventListener('mouseleave', () => img.src = original);
+  </script>
+
+
+
+
+<audio id="retroPlayer" src="himitsu.mp3"></audio>
+<button id="playBtn">▶ 再生</button>
+<script>
+const player = document.getElementById("retroPlayer");
+const button = document.getElementById("playBtn");
+
+button.addEventListener("click", () => {
+  if (player.paused) {
+    player.play();
+    button.textContent = "⏸ 停止";
+  } else {
+    player.pause();
+    button.textContent = "▶ 再生";
+  }
+});
+</script>
+
+<up><br>↑ひみつの歌です</up>
+
+
+  <div class="textbox">
+  <span class="dekaa">ようこそ</span><br><br>
+ <span class="minii">件名：はじめましてについて　宛先：あなた (2025/10/13)</span><br><br>
+
+  </div>
+<br><br>
+  <!-- 説明ボックス -->
+  <div class="description-box">
+    <p>※当サイト「ねずみのことばばこ」に掲載されている<br>文章・画像・音声等の著作権は、
+    特に明記のない限り作者に帰属します。<br>
+    個人での閲覧を目的とする場合を除き、無断転載・無断複製としての利用を禁止します。<br>
+    本サイトの内容を利用したことによって生じたいかなる損害についても、作者は一切の責任を負いません。<br>
+    Unless otherwise stated, all texts, images, and audio on this website 
+    <strong>"Nezumi no Kotobabako"</strong> are the property of the author.
+    Unauthorized reproduction, redistribution, or use of the contents—including is strictly prohibited.
+    The author assumes no responsibility for any damages resulting from the use of this website.
+  </p></p>
+  </div>
+
+  <!-- コピーライト -->
+  <footer class="footer">
+    <hr class="footer-line">
+    <p>© 2025 ねずみのことばばこ/ All Rights Reserved.</p>
+  </footer>
+</div>
+
+
+
+</body>
+</html>

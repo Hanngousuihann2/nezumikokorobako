@@ -1,0 +1,302 @@
+
+@font-face {
+  font-family: "honbunfont";
+  src: url("KH-Dot-Akihabara-16.ttf") format("truetype");
+}
+@font-face {
+  font-family: "husigifont";
+  src: url("NuKinakoMochiCt-RegOl-Rnd.otf") format("truetype");
+}
+@font-face {
+  font-family: "riarufont";
+  src: url("KH-Dot-Hibiya-24.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mamefont";
+  src: url("Mamelon-3-Hi-Regular.otf") format("truetype");
+}
+
+    body {
+      background-color: #ffffff;
+      color: #555577;
+      font-family: "honbunfont", sans-serif;
+      padding: 10px;
+	justify-content: flex-start;
+    }
+
+
+
+    .container {
+      display: flex;
+      align-items: flex-start;
+  position: relative;     /* ロゴをこの中に相対配置するため */
+  max-width: 800px;       /* ← これが改行を制御する幅（例: 600px） */
+  width: 100%;
+ gap: 20px;      
+    }
+
+
+.titlepic {
+  display: block;
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.garaba {
+  display: block;       /* ブロック表示 */
+  max-width: 350px;     /* 幅の上限 */
+  height: auto;
+  margin-left: auto;    /* 左マージン自動で余白を押し出す */
+  margin-right: 0; 
+}
+.miyazaki {
+  display: block;       /* ブロック表示 */
+  max-width: 620px;     /* 幅の上限 */
+  height: auto;
+  /* 左マージン自動で余白を押し出す */
+
+}
+.nav-buttons {
+  margin-bottom: 20px; /* 下に余白 */
+  flex-direction: column; /* ← これで縦に並ぶ！ */
+  gap: 10px;      
+}
+
+.nav-btn {
+  display: line-block;
+	  font-family: "honbunfont", "創英角ゴシック", sans-serif;
+
+  background-color: #bbddee;
+  color: #444477;
+  text-decoration: none;
+  padding: 4px 16px;
+  border-radius: 1px;
+  gap: 55px;   /* ボタン間の隙間 */
+  transition: 0.2s;
+  margin-bottom: 5px;
+ display: block;   
+}
+.nav-btn2 {
+  display: line-block;
+	  font-family: "honbunfont", "創英角ゴシック", sans-serif;
+
+  background-color: #aaffee;
+  color: #444477;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 1px;
+  gap: 55px;   /* ボタン間の隙間 */
+  transition: 0.2s;
+  margin-bottom: 5px;
+ display: block;   
+}
+.nav-btn3 {
+  display: line-block;
+	  font-family: "honbunfont", "創英角ゴシック", sans-serif;
+
+  background-color: #000044;
+  color: #ff4488;
+  text-decoration: none;
+  padding: 4px 14px;
+  border-radius: 2px;
+  gap: 55px;   /* ボタン間の隙間 */
+  transition: 0.2s;
+  margin-bottom: 5px;
+ display: block;   
+}
+
+.nav-btn:hover {
+  background-color: #66cccc;
+}
+.nav-btn2:hover {
+  background-color: #ddff66;
+}
+.nav-btn3:hover {
+  background-color: #880000;
+}
+
+.textbox {
+      background-color: rgba(244, 244, 244, 1); /* 白＋透明60% */
+      border-radius: 0px;
+      padding: 20px 30px;
+      box-shadow: 0 4px 10px rgba(100, 0, 0, 0.0);
+    }
+
+
+    p {
+      font-size: 0.8em;
+	  font-family: "honbunfont", "創英角ゴシック", sans-serif;
+      color: #111155;
+      line-height: 1.6;
+    }
+
+up {
+      font-size: 0.7em;
+	  font-family: "honbunfont", "創英角ゴシック", sans-serif;
+      color: #666666;
+      line-height: 1.2;
+    }
+
+.dekaa {
+  font-size: 2em; /* 元の1.2emの2倍 */
+  font-family: "husigifont", "honbunfont", sans-serif;
+  color: #000055;   /* 好きな色で強調 */
+  font-weight: bold; /* 太字にすることも可能 */
+}
+.minii {
+  font-size: 0.8em; 
+  color: #888888; 
+}
+.logo {
+  position: absolute;   /* .content内の右上に配置 */
+  top: 0;
+  right: 0;
+  width: 322px;          /* ロゴサイズ */
+  height: auto;
+  opacity: 2;
+}
+.kuuhaku{
+  padding-top: 60px;
+}
+.top-line {
+  border: none;              /* デフォルトの線を消す */
+  height: 2px;               /* 太さ */
+  background-color: #999999; /* 線の色 */
+  margin-bottom: 14px;       /* 下の余白 */
+}
+
+
+/* --- 説明ボックス --- */
+.description-box {
+  border: 2px solid #222;      /* 黒い枠線 */
+  background-color: rgba(255,255,255,0.3); /* 少し透けた白背景 */
+  padding: 10px 15px;
+  border-radius: 2px;
+  font-size: 0.6em;
+
+  color: #222;
+  margin-bottom: 30px;
+}
+
+/* --- コピーライト部分 --- */
+.footer {
+  text-align: left;
+  font-size: 0.8em;
+  color: #333;
+}
+
+.footer-line {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  margin: 20px 0 10px 0; /* 上下の余白 */
+}
+
+/* 本文左上の小ロゴリンク */
+.sub-logo-link {
+  display: inline-block;
+
+  top: -17px;
+  left: 180px;
+  position: absolute;
+  z-index:50 ; /* テキストより上に */
+  text-decoration: none; /* 文字リンクの下線を消す */
+
+}
+
+/* 画像自体の見た目 */
+.sub-logo {
+  width: 240px;    /* ロゴサイズ調整 */
+  height: auto;
+  transition: opacity 0.5s ease;
+
+}
+
+.news-bar {
+  position: relative;
+  width: 100%;
+  height: 25px;  /* 高さ調整 */
+  overflow: hidden;  /* はみ出る文字を隠す */
+  margin-top: 5px; /* 下のコンテンツとの間隔 */
+}
+
+.news-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #221133; /* 下敷きの色 */
+  opacity: 1; /* 半透明にして下の文字や背景と馴染ませる */
+  z-index: 1;
+}
+
+.news-text {
+  position: absolute;
+  white-space: nowrap; /* 改行させない */
+  color: #aaccff;  /* 文字色 */
+  font-weight:;
+  font-size: 0.8em;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: scroll-text 15s linear infinite;
+  z-index: 2; /* 背景より前面 */
+}
+
+/* なにわちゃん */
+.illustration-link {
+  text-align: left;      /* 中央寄せにする（不要なら消してOK） */
+  margin-bottom: 0px;     /* 本文との間隔 */
+}
+
+.illustration-link .illust img {
+  width: 210px;            /* サイズ調整 */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+/* 音楽ボタン */
+#playBtn {
+  font-family: "ＭＳ ゴシック", "MS Gothic", monospace;
+  font-size: 14px;
+  color: #000;
+  background: linear-gradient(to bottom, #e0e0e0, #b0b0b0);
+  border: 2px solid #666;
+  border-radius: 2px;
+  padding: 4px 10px;
+  box-shadow: inset 1px 1px #fff, 1px 1px 2px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+#playBtn:hover {
+  background: linear-gradient(to bottom, #ffffff, #cccccc);
+}
+
+/* 再生バー風の見た目 */
+#retroPlayer{
+  display: block;
+  width: 260px;
+  height: 240px;e
+  border: 2px solid #666;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #c0c0c0, #888);
+  box-shadow: inset 1px 1px 0 #fff;
+  margin-top: 10px;
+}
+
+
+/* 流れるアニメーション */
+@keyframes scroll-text {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+
+
+
+
+
