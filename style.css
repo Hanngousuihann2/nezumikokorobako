@@ -35,6 +35,7 @@
   max-width: 600px;       /* ← これが改行を制御する幅（例: 600px） */
   width: 100%;
  gap: 100px;         /* ← テキストを左揃えに */
+		  text-align: left;  
     }
 .sidebar {
   width: 180px;
@@ -322,6 +323,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
