@@ -227,7 +227,11 @@ up {
   width: 240px;    /* ロゴサイズ調整 */
   height: auto;
   transition: opacity 0.5s ease;
-
+}
+.sub-logo2 {
+  width: 160px;    /* ロゴサイズ調整 */
+  height: auto;
+  transition: opacity 0.5s ease;
 }
 
 .news-bar {
@@ -313,6 +317,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
