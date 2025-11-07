@@ -33,6 +33,7 @@
       align-items: flex-start;
   position: relative;     /* ロゴをこの中に相対配置するため */
   max-width: 600px;       /* ← これが改行を制御する幅（例: 600px） */
+		  width: 100%;  
  gap: 10px;         /* ← テキストを左揃えに */
 		  text-align: left;  
     }
@@ -322,6 +323,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
