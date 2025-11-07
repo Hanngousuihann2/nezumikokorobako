@@ -215,10 +215,11 @@ up {
 }
 .sub-logo-link2 {
   display: inline-block;
-  position: absolute;
 	  top: 25px;
-  z-index:50 ; /* テキストより上に */
-  text-decoration: none; /* 文字リンクの下線を消す */
+	  display: block;
+  margin-top: 0;
+  text-decoration: none;
+
 }
 
 /* ね！！！！ */
@@ -322,6 +323,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
