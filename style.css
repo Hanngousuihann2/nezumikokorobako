@@ -33,8 +33,8 @@
       align-items: flex-start;
   position: relative;     /* ロゴをこの中に相対配置するため */
   max-width: 600px;       /* ← これが改行を制御する幅（例: 600px） */
-  width: 100%;
- gap: 100px;         /* ← テキストを左揃えに */
+  width: 10%;
+ gap: 10px;         /* ← テキストを左揃えに */
 		  text-align: left;  
     }
 .sidebar {
@@ -216,7 +216,7 @@ up {
   top: 10px;           /* 好きな位置に調整 */
   left: 0;
   display: block;      /* ブロック化で余白を消す */
-  z-index: 50;
+  z-index: 0;
   text-decoration: none;
 
 }
@@ -231,13 +231,13 @@ up {
   width: 240px;    /* ロゴサイズ調整 */
 	  display: block;
   height: auto;
-  transition: opacity 0.5s ease;
+
 }
 .sub-logo2 {
   display: block;      /* これが余白防止の最重要設定 */
   width: 160px;
   height: auto;
-  transition: opacity 0.5s ease;
+
 }
 
 .news-bar {
@@ -323,6 +323,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
