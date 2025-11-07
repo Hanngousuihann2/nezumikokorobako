@@ -216,10 +216,16 @@ up {
 .sub-logo-link2 {
   display: inline-block;
   position: absolute;
+	  top: 25px;
   z-index:50 ; /* テキストより上に */
   text-decoration: none; /* 文字リンクの下線を消す */
 }
 
+/* ね！！！！ */
+/* ね！！！！ */
+/* ね！！！！ */
+/* ね！！！！ */
+/* ね！！！！ */
 /* ね！！！！ */
 .sub-logo {
   width: 240px;    /* ロゴサイズ調整 */
@@ -316,6 +322,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
