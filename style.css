@@ -41,9 +41,6 @@
   padding: 10px;
 }
 
-.content {
-  flex: 0;
-}
 
 
 .titlepic {
@@ -101,7 +98,7 @@
  display: block;   
 }
 .nav-btn3 {
-  display: line-block;
+  display: inline-block;
 	  font-family: "honbunfont", "創英角ゴシック", sans-serif;
 
   background-color: #000044;
@@ -307,7 +304,7 @@ up {
 #retroPlayer{
   display: block;
   width: 260px;
-  height: 240px;e
+  height: 240px;
   border: 2px solid #666;
   border-radius: 5px;
   background: linear-gradient(to bottom, #c0c0c0, #888);
@@ -324,6 +321,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
