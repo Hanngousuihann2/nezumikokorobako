@@ -28,6 +28,15 @@
   width: 100%;
  gap: 20px;      
     }
+.sidebar {
+  width: 180px;
+
+  padding: 10px;
+}
+
+.content {
+  flex: 0;
+}
 
 
 .titlepic {
@@ -289,6 +298,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
