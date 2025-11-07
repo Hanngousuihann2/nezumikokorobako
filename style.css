@@ -28,6 +28,14 @@
   width: 100%;
  gap: 20px;      
     }
+    .container2 {
+      display: flex;
+      align-items: flex-start;
+  position: relative;     /* ロゴをこの中に相対配置するため */
+  max-width: 600px;       /* ← これが改行を制御する幅（例: 600px） */
+  width: 100%;
+ gap: 20px;      
+    }
 .sidebar {
   width: 180px;
 
@@ -305,6 +313,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
