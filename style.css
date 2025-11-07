@@ -29,12 +29,12 @@
  gap: 20px;      
     }
     .container2 {
-  position: relative; /* 絶対配置の基準にする */
-  max-width: 600px;
+      display: flex;
+      align-items: flex-start;
+  position: relative;     /* ロゴをこの中に相対配置するため */
+  max-width: 600px;       /* ← これが改行を制御する幅（例: 600px） */
   width: 100%;
-  margin: 0;                  /* ← 中央寄せをやめる */
-  padding: 0;                 /* ← コンテンツ周囲の余白を消す */
-  text-align: left;           /* ← テキストを左揃えに */
+ gap: 100px;         /* ← テキストを左揃えに */
     }
 .sidebar {
   width: 180px;
@@ -322,6 +322,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
