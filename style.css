@@ -29,12 +29,11 @@
  gap: 20px;      
     }
     .container2 {
- 
-      align-items: flex-start;
-  position: relative;     /* ロゴをこの中に相対配置するため */
-  max-width: 600px;       /* ← これが改行を制御する幅（例: 600px） */
+  position: relative; /* 絶対配置の基準にする */
+  max-width: 600px;
   width: 100%;
- gap: 20px;      
+  margin: 0 auto;
+  padding: 20px; 
     }
 .sidebar {
   width: 180px;
@@ -214,10 +213,11 @@ up {
   text-decoration: none; /* 文字リンクの下線を消す */
 }
 .sub-logo-link2 {
-  display: inline-block;
-	  top: 25px;
-	  display: block;
-  margin-top: 0;
+  position: absolute;  /* ← これを追加 */
+  top: 10px;           /* 好きな位置に調整 */
+  left: 0;
+  display: block;      /* ブロック化で余白を消す */
+  z-index: 50;
   text-decoration: none;
 
 }
@@ -235,7 +235,8 @@ up {
   transition: opacity 0.5s ease;
 }
 .sub-logo2 {
-  width: 160px;    /* ロゴサイズ調整 */
+  display: block;      /* これが余白防止の最重要設定 */
+  width: 160px;
   height: auto;
   transition: opacity 0.5s ease;
 }
@@ -323,6 +324,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
