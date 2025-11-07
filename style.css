@@ -204,7 +204,14 @@ up {
   position: absolute;
   z-index:50 ; /* テキストより上に */
   text-decoration: none; /* 文字リンクの下線を消す */
+}
+.sub-logo-link2 {
+  display: inline-block;
 
+  top: -17px;
+  position: absolute;
+  z-index:50 ; /* テキストより上に */
+  text-decoration: none; /* 文字リンクの下線を消す */
 }
 
 /* 画像自体の見た目 */
@@ -298,6 +305,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
