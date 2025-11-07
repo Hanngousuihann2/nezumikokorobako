@@ -211,7 +211,7 @@ up {
   text-decoration: none; /* 文字リンクの下線を消す */
 }
 .sub-logo-link2 {
-  position: absolute;  /* ← これを追加 */
+  position: relative;  /* ← これを追加 */
   top: 10px;           /* 好きな位置に調整 */
   left: 0;
   display: block;      /* ブロック化で余白を消す */
@@ -322,6 +322,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
