@@ -223,6 +223,7 @@ up {
 /* ね！！！！ */
 .sub-logo {
   width: 240px;    /* ロゴサイズ調整 */
+	  display: block;
   height: auto;
   transition: opacity 0.5s ease;
 }
@@ -315,6 +316,7 @@ up {
   100% {
     left: -100%;
   }
+
 
 
 
