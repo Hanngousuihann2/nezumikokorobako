@@ -35,6 +35,8 @@
   <div class="textbox"> 
   <span class="dekaa">タイトル</span><br><br>
  <span class="minii">件名：はじめましてについて　宛先：あなた (2025/10/13)</span><br><br>
+   <p>
+  </p>
 
   </div>
 <br><br>
